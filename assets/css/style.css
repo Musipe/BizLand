@@ -1,10 +1,3 @@
-/**
-* Template Name: BizLand
-* Updated: Jan 29 2024 with Bootstrap v5.3.2
-* Template URL: https://bootstrapmade.com/bizland-bootstrap-business-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
 
 /*--------------------------------------------------------------
 # General
@@ -161,7 +154,7 @@ h6 {
 # Header
 --------------------------------------------------------------*/
 #header {
-  background: #fff;
+  background: #3F51B5;
   transition: all 0.5s;
   z-index: 997;
   height: 86px;
@@ -183,7 +176,8 @@ h6 {
 }
 
 #header .logo a {
-  color: #222222;
+  color: white;
+  font-size: x-large;
 }
 
 #header .logo a span {
@@ -191,7 +185,8 @@ h6 {
 }
 
 #header .logo img {
-  max-height: 40px;
+  max-height: 100px;
+  border-radius: 10px;
 }
 
 .scrolled-offset {
@@ -233,7 +228,7 @@ h6 {
   padding: 0 3px;
   font-size: 15px;
   font-weight: 600;
-  color: #222222;
+  color: white;
   white-space: nowrap;
   transition: 0.3s;
   position: relative;
@@ -301,12 +296,6 @@ h6 {
   font-size: 12px;
 }
 
-.navbar .dropdown ul a:hover,
-.navbar .dropdown ul .active:hover,
-.navbar .dropdown ul li:hover>a {
-  color: #106eea;
-}
-
 .navbar .dropdown:hover>ul {
   opacity: 1;
   top: 100%;
@@ -340,7 +329,7 @@ h6 {
 * Mobile Navigation 
 */
 .mobile-nav-toggle {
-  color: #222222;
+  color: white;
   font-size: 28px;
   cursor: pointer;
   display: none;
@@ -388,7 +377,7 @@ h6 {
   bottom: 15px;
   left: 15px;
   padding: 10px 0;
-  background-color: #fff;
+  background-color: rgb(243, 240, 240);
   overflow-y: auto;
   transition: 0.3s;
 }
@@ -397,7 +386,7 @@ h6 {
 .navbar-mobile a:focus {
   padding: 10px 20px;
   font-size: 15px;
-  color: #222222;
+  color: rgb(12, 12, 12);
 }
 
 .navbar-mobile>ul>li {
@@ -421,17 +410,7 @@ h6 {
   margin: 15px;
 }
 
-.navbar-mobile .dropdown ul {
-  position: static;
-  display: none;
-  margin: 10px 20px;
-  padding: 10px 0;
-  z-index: 99;
-  opacity: 1;
-  visibility: visible;
-  background: #fff;
-  box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
-}
+
 
 .navbar-mobile .dropdown ul li {
   min-width: 200px;
@@ -460,15 +439,15 @@ h6 {
 --------------------------------------------------------------*/
 #hero {
   width: 100%;
-  height: 75vh;
-  background: url("../img/hero-bg.jpg") top left;
+  height: 50vh;
+  background:#3F51B5;
   background-size: cover;
   position: relative;
 }
 
 #hero:before {
   content: "";
-  background: rgba(255, 255, 255, 0.6);
+  background: rgba(255, 255, 255, );
   position: absolute;
   bottom: 0;
   top: 0;
