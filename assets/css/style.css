@@ -440,6 +440,7 @@ h6 {
   background:#3F51B5;
   background-size: cover;
   position: relative;
+  
 }
 
 #hero:before {
@@ -463,6 +464,7 @@ h6 {
   line-height: 56px;
   color: #222222;
   font-family: "Poppins", sans-serif;
+
 }
 
 #hero h1 span {
@@ -518,7 +520,7 @@ h6 {
 /* Small screen */
 @media (max-width: 768px) {
   #hero {
-    height: 70vh;
+    height: 100vh;
     padding: 35px;
     text-align: center;
   }
